@@ -1,0 +1,20 @@
+.title {
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.videoContainer>div {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/show.css">
+        <title>Oh Wow?</title>
+    </head>
+    <body>
+        <h1 class="title">Stream</h1>
+        <div class="videoContainer">
+            <div id="me">
+                <video autoplay id="video-me" width="640" height="480"></video>
+                <div id="status-box">
+                    <span>Me: </span>
+                    <span id="status">...</span>
+                </div>
+                
+            </div>
+            <div id="you">
+                <video id="video-you" width="640" height="480"></video>
+                <span>You</span>
+            </div>
+        </div>
+        <script src="scripts/getVideo.js"></script>
+        <script src="scripts/stream.js"></script>
+        <script src="scripts/record.js"></script> 
+    </body>
+</html>
